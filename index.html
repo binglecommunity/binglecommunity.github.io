@@ -38,7 +38,7 @@
 				hour = minute * 60,
 				day = hour * 24;
 
-			let countDown = new Date('Nov 2, 2021 12:00:00').getTime(),
+			let countDown = new Date('Oct 31, 2021 12:00:00').getTime(),
 				x = setInterval(function () {
 
 					let now = new Date().getTime(),
@@ -48,7 +48,7 @@
 						document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
 						document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
 						document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-
+     <div> <h1><strong>Theme by: Mineton (C) 2021</strong></h1> </div>
 				}, second)
 		</script>
 	</section>
